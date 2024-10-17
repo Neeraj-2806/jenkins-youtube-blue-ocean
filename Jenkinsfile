@@ -43,5 +43,11 @@ date
       }
     }
 
+    stage('fully deployed') {
+      steps {
+        echo 'deployed successfully'
+      }
+    }
+
   }
 }
